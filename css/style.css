@@ -1,0 +1,91 @@
+div{
+  transition: background-color 4s ease-in;
+  transition: color 1s ease-in;
+  font-family: Georgia;
+}
+.downabit{
+  position: absolute;
+ 
+  color: rgba(62,122,220,1)
+}
+hr{
+  margin: -6px 0px -2px 0px;
+    
+}
+a{
+  color: #DE8F0B;
+}
+
+.resultboxeven{
+  background: linear-gradient(to left, rgba(170,180,255,1) 0%,rgba(233,245,234,.9) 57%,rgba(246,247,234,.8) 87%, rgba(230, 250, 230, .7) 85%, rgba(235,235,253,0) 100%);
+  color: #DE8F0B;
+  border-top: dashed white 1px;
+  padding: 3px;
+  width: 44%;
+  display: none;
+  max-height: 95px;
+  overflow: hidden;
+  border-radius: 15% 0% 0% 15%; 
+  position: relative;
+  float: right;
+  margin-left: 20%;
+  
+
+     
+  
+}
+.resultboxeven:hover{
+  background: white;
+  padding: 4px;
+  
+}
+
+#Random{
+  position: absolute;
+  color: #ED6952;
+
+}
+.topRight{
+  position: absolute;
+  height: 100%;
+   
+}
+.randomArt{
+  position: relative;
+  display: inline-block;
+  color: white;
+  margin-top: 30%;
+  background-color: rgba(70,110,210,.6);
+}
+
+.whiteborder{
+  border: double white 4px;
+  border-radius: 5%
+}
+
+.main{
+  background-image: url("http://www.josephwamsley.com/wp-content/uploads/2016/02/watercolor2.png");
+  height: 800px;
+  position: relative;
+  background-size: cover;
+  background-blend-mode: exclusion, normal;
+  background-color: white;
+  background-repeat: no-repeat;
+  
+    
+}
+.searcher{
+  color: black;
+}
+
+.topLeft{
+
+  height: 100%;
+  position: absolute;
+  z-index: +1;
+  top: 10%;
+  color: #DE8F0B;
+  
+  
+  
+}
